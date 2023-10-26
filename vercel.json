@@ -2,7 +2,7 @@
 "builds": [{
     "src": "dj_vue/wsgi.py",
     "use": "@vercel/python",
-    "config": { "maxLambdaSize": "15mb" }
+    "config": { "maxLambdaSize": "15mb", "runtime": "python" }
 }],
 "routes": [
     {
